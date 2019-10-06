@@ -89,7 +89,7 @@ class Kernel extends ConsoleKernel
 				if($r->sfw > 40){
 					$slack->username =   "The rating doge";
 					$slack->avatar   =   'https://i.imgur.com/HeGEEbu.jpg';
-					$slack->text     = 	 "<:OkRetard1:625111286887219200><:OkRetard2:625111299713400832> \n <:OkRetard3:625111313688821760><:OkRetard4:625111326091640833> <@&427487027429244929> wow, much moderators, many rate, very content! ";
+					$slack->text     = 	 "<:OkRetard1:625111286887219200><:OkRetard2:625111299713400832>\n<:OkRetard3:625111313688821760><:OkRetard4:625111326091640833> <@&427487027429244929> wow, much moderators, many rate, very content! ";
 				}
 				
 				if($r->sfw > 50){
